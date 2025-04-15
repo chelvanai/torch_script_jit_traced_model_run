@@ -22,9 +22,11 @@ This guide will help you set up a development environment on your Windows machin
 
      ```bash
      sudo apt-get update
+     sudo apt install gcc
+     sudo apt install nvidia-cuda-toolkit
      sudo apt-get install g++
-     sudo apt-get install gcc
      sudo apt-get install cmake
+     sudo apt install build-essential -y
      ```
 
 
